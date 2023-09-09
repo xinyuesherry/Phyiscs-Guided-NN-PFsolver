@@ -2,6 +2,6 @@ This repo is for paper [Physics-Guided Deep Neural Networks for Power Flow Analy
 
 ***Data is released!***
 
-The code is being prepared for publishing. Please check back later.
+***Basic Classes and functions are released!***
 
 
