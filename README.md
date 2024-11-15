@@ -1,4 +1,8 @@
-This repo is for paper [Physics-Guided Deep Neural Networks for Power Flow Analysis](https://arxiv.org/pdf/2002.00097.pdf).
+# Pytorch Implementation of Physics-guided Neural Network PF Solver
+This repo is for paper [Physics-Guided Deep Neural Networks for Power Flow Analysis](https://arxiv.org/pdf/2002.00097.pdf) (IEEE Transactions on Power Systems 2020).
+
+An AutoEncoder-based PF modeling and solver for dynamic and uncertain power systems. Kirchhoff’s laws and system topology knowledge have been integrated into the design of AutoEncoder.
+![Alt text](img/NN_architecture.pdf)
 
 - Data is released in the data folder.
 
@@ -11,4 +15,15 @@ This repo is for paper [Physics-Guided Deep Neural Networks for Power Flow Analy
 
 
 
-
+If you find this work useful for your research, please cite:
+```bibtex
+@article{hu2020physics,
+  title={Physics-guided deep neural networks for power flow analysis},
+  author={Hu, Xinyue and Hu, Haoji and Verma, Saurabh and Zhang, Zhi-Li},
+  journal={IEEE Transactions on Power Systems},
+  volume={36},
+  number={3},
+  pages={2082--2092},
+  year={2020},
+  publisher={IEEE}
+}
